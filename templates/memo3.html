@@ -1,0 +1,24 @@
+</html>
+<body>
+<table border="2" width="60%">
+    <tr>
+        <th width="20%">과목명</th>
+        <th width="40%">산업 AI</th>
+    </tr>
+</table>
+<form action="{{ url_for('add_text') }}" method=post>
+    <p>
+        <input type="text" name="textfield1" style="width:950px; height:400px; letter-spacing: 1px"><br>
+        <input type=submit value="Save">
+    </p>
+</form>
+</body>
+<style>
+  th {
+    text-align: left;
+  }
+  td {
+    text-align: left;
+  }
+</style>
+</html>
